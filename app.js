@@ -12,3 +12,9 @@ menuBtn.addEventListener('click',()=>{
     menu.src='src/menu.png';
    }
 });
+
+// smooth scroll code 
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
